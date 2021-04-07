@@ -1,0 +1,59 @@
+ASxxxx Assembler V02.00 + NoICE + SDCC mods  (GameBoy Z80-like CPU), page 1.
+Hexadecimal [16-Bits]
+
+Symbol Table
+
+    .__.$$$.=  2710 L   |     .__.ABS.=  0000 G   |     .__.CPU.=  0000 L
+    .__.H$L.=  0000 L   |     _BGP_REG   **** GX  |     _LCDC_RE   **** GX
+    _LYC_REG   **** GX  |     _OBP0_RE   **** GX  |     _STAT_RE   **** GX
+    __divsin   **** GX  |     __modsin   **** GX  |     __mulint   **** GX
+    __muluch   **** GX  |     _add_LCD   **** GX  |     _add_VBL   **** GX
+  0 _animate   28B3 GR  |   1 _blocked   08FD GR  |   1 _blocked   08FE GR
+  1 _bubble    0918 GR  |   1 _bubble_   09CF GR  |   0 _cave_ti   32BC GR
+  0 _check_c   1880 GR  |   1 _chutes    0903 GR  |   1 _complet   0195 GR
+  0 _die       1634 GR  |     _disable   **** GX  |   1 _effects   092D GR
+    _enable_   **** GX  |   0 _exit_ti   36AC GR  |   0 _fade_fr   2AE6 GR
+  0 _fade_fr   2B90 GR  |   0 _fade_to   2A8C GR  |   0 _fade_to   2B3D GR
+  1 _faded_o   092E GR  |   0 _fall      144D GR  |   1 _falling   08FA GR
+  0 _game_LC   016D GR  |   0 _game_VB   0985 GR  |   1 _game_re   08F7 GR
+  0 _game_up   2A33 GR  |   1 _game_wi   016D GR  |   1 _gameove   0221 GR
+  1 _gems      0901 GR  |   0 _gems_re   097C GR  |   0 _getTile   0AE2 GR
+    _get_spr   **** GX  |   0 _get_til   0B3A GR  |   1 _gravity   08F5 GR
+  1 _h_swapp   08FB GR  |   1 _hero      0904 GR  |   0 _hero_ti   36EC GR
+  0 _hud_til   2FDC GR  |     _joypad    **** GX  |   0 _jump      12E1 GR
+  1 _jumping   08F9 GR  |   0 _key_dow   0000 GR  |   0 _key_up    0016 GR
+  0 _lava_ti   347C GR  |   1 _level     02B3 GR  |   0 _level01   0454 GR
+  0 _level02   05BC GR  |   1 _level_h   08F4 GR  |   1 _level_w   08F3 GR
+  1 _levels    02AD GR  |   0 _levels_   0979 GR  |   0 _levels_   0976 GR
+  1 _lives     0900 GR  |   0 _main      2BE9 GR  |   0 _menu_LC   002C GR
+  0 _menu_VB   0055 GR  |   1 _menu_re   0001 GR  |   0 _menu_up   005C GR
+    _move_bk   **** GX  |   0 _move_bu   0E72 GR  |   0 _move_me   0CC0 GR
+    _move_sp   **** GX  |     _move_wi   **** GX  |   1 _movemen   08F6 GR
+  0 _movemen   29A1 GR  |   1 _previou   0000 GR  |     _remove_   **** GX
+    _remove_   **** GX  |   1 _require   08FF GR  |   1 _scene     092C GR
+  1 _score     0902 GR  |     _scroll_   **** GX  |   1 _selecte   0003 GR
+  1 _selecti   0005 GR  |   0 _selecti   00AD GR  |     _set_bkg   **** GX
+    _set_bkg   **** GX  |     _set_int   **** GX  |     _set_spr   **** GX
+    _set_spr   **** GX  |     _set_spr   **** GX  |   0 _set_til   0C66 GR
+    _set_win   **** GX  |     _set_win   **** GX  |   0 _setup     0D49 GR
+  0 _spawns_   097F GR  |   0 _spawns_   0982 GR  |   1 _standin   08FC GR
+  0 _stop      1515 GR  |   0 _test_le   080E GR  |   0 _title_b   0198 GR
+  1 _title_t   092F GR  |   0 _title_w   0418 GR  |   1 _unlocke   0004 GR
+  0 _update_   0A0F GR  |   0 _update_   09BE GR  |   0 _update_   0AC2 GR
+  0 _update_   0A2F GR  |   0 _vbl_wai   2A59 GR  |     _wait_vb   **** GX
+  0 _walk_le   0E94 GR  |   0 _walk_ri   10A8 GR  |   1 _walking   08F8 GR
+  1 _win_top   0002 GR  |   0 _window_   098C GR  |   0 _window_   09B7 GR
+
+ASxxxx Assembler V02.00 + NoICE + SDCC mods  (GameBoy Z80-like CPU), page 2.
+Hexadecimal [16-Bits]
+
+Area Table
+
+   0 _CODE      size 37EC   flags    0
+   1 _DATA      size  A4F   flags    0
+   2 _DABS      size    0   flags    8
+   3 _HOME      size    0   flags    0
+   4 _GSINIT    size 135F   flags    0
+   5 _GSFINAL   size    0   flags    0
+   6 _CABS      size    0   flags    8
+
